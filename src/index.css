@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url("../.packaging/google-fonts/9f9a3eee4d342427.css");
 @import 'tailwindcss';
 
 @custom-variant dark (&:is(.dark *));

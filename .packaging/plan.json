@@ -1,0 +1,53 @@
+{
+  "build_script": "vite build",
+  "gameplay_or_asset_changes": false,
+  "google_fonts_selfhost": {
+    "families": [
+      {
+        "family": "DM Mono",
+        "source": "ofl/dmmono/OFL.txt",
+        "spdx": "OFL-1.1"
+      },
+      {
+        "family": "Space Grotesk",
+        "source": "ofl/spacegrotesk/OFL.txt",
+        "spdx": "OFL-1.1"
+      }
+    ],
+    "font_files": 7,
+    "fonts_dir": ".packaging/google-fonts",
+    "google_fonts_commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+    "helper": "google-fonts-selfhost.py",
+    "stylesheets": [
+      {
+        "local": ".packaging/google-fonts/9f9a3eee4d342427.css",
+        "sha256": "63b16ab6130707789e7d1fe26637d32e4f278ab3cd7e346319fbb3b157ed531d",
+        "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      }
+    ],
+    "total_font_bytes": 96916,
+    "version": 1
+  },
+  "lockfile": "package-lock.json",
+  "mode": "native_source_build",
+  "repository": "Reabot6/falling-letters",
+  "schema_version": 1,
+  "source_changes": [
+    ".packaging/plan.json",
+    ".packaging/google-fonts/9f9a3eee4d342427.css",
+    ".packaging/google-fonts/NOTICE.md",
+    ".packaging/google-fonts/files/325a111c24715281444f.woff2",
+    ".packaging/google-fonts/files/37479ee61710619a2506.woff2",
+    ".packaging/google-fonts/files/54a123c13be845cb93c8.woff2",
+    ".packaging/google-fonts/files/5d47749e95534e220465.woff2",
+    ".packaging/google-fonts/files/98a0d4ac28a1eb322d2a.woff2",
+    ".packaging/google-fonts/files/cc7d24aa94613267037e.woff2",
+    ".packaging/google-fonts/files/d893bf46c88fc508ef4b.woff2",
+    ".packaging/google-fonts/licenses/DM-Mono-OFL-1.1.txt",
+    ".packaging/google-fonts/licenses/Space-Grotesk-OFL-1.1.txt",
+    "src/index.css"
+  ],
+  "status": "ready",
+  "upstream_code_executed_locally": false,
+  "upstream_sha": "474e94e5bde540cb1368fc15182ed8b4ed1f0c99"
+}
